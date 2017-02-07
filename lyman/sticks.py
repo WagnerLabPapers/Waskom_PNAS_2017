@@ -1,0 +1,13 @@
+source_template = "{subject_id}/bold/task_??.nii.gz"
+fieldmap_template = "{subject_id}/fieldmap/task_??.nii.gz"
+n_runs = 12
+TR = .72
+frames_to_toss = 2
+fieldmap_pe = ["y", "y-"]
+temporal_interp = False
+motion_threshold = .25
+spike_threshold = -12
+smooth_fwhm = 4
+hpf_cutoff = 128
+confound_sources = ["motion", "wm"]
+remove_artifacts = True

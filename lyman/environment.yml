@@ -1,0 +1,25 @@
+name: subnet
+dependencies:
+  - python=2.7
+  - numpy=1.9
+  - scipy=0.16
+  - pandas=0.16
+  - matplotlib=1.4
+  - seaborn=0.7
+  - mayavi=4.4
+  - statsmodels=0.6
+  - networkx=1.9
+  - scikit-image=0.11
+  - scikit-learn=0.15
+  - pep8=1.5
+  - ipython=4.0
+  - notebook=4.1
+  - jupyter=1.0
+  # Uncomment to install on linux
+  # - libgfortran=1.0
+  - pip:
+    - nibabel==2.0.2
+    - nipype==0.11.0
+    - pysurfer==0.6.0
+    - lyman==0.0.10
+    - moss==0.4.2
