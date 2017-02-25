@@ -8,6 +8,8 @@ Waskom M.L., Wagner A.D. (2017). Distributed representation of context by intrin
 
 The paper can be accessed at the [PNAS website](http://www.pnas.org/cgi/doi/10.1073/pnas.1615269114).
 
+Data can be accessed at the [Stanford Digital Repository](https://purl.stanford.edu/vq183gc7199).
+
 A high-level overview of the commands that were executed to perform the analyses can be found in [`commands.md`](commands.md). Some of these commands execute [`lyman`](https://github.com/mwaskom/lyman) workflows using the parameters defined in the [`lyman/`](lyman/) subdirectory. Others execute experiment-specific code that are included in this repository. The experiment-specific code falls into a few different categories:
 
 ## Data extraction
